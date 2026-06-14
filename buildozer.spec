@@ -1,12 +1,11 @@
-```ini
 [app]
 
 title = NC Convert
 package.name = ncconvert
-package.domain = org.ncconvert
+package.domain = org.naveen
 
 source.dir = .
-source.include_exts = py,png,jpg,kv,txt
+source.include_exts = py,png,jpg,txt
 
 version = 1.0
 
@@ -16,16 +15,12 @@ orientation = portrait
 
 fullscreen = 0
 
+icon.filename = icon.png
+
 android.api = 33
 android.minapi = 21
-
-presplash.filename =
-icon.filename =
 
 log_level = 2
 
 [buildozer]
-
 warn_on_root = 1
-```
-
